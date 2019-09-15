@@ -1,0 +1,29 @@
+{
+  "name": "Salesman-Tool-Suite",
+  "version": "1.0.0",
+  "description": "A tool built for G2 Supply to aid salesmen in their day to day operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElijahMcKay/Salesman-Tool-Suite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElijahMcKay/Salesman-Tool-Suite/issues"
+  },
+  "homepage": "https://github.com/ElijahMcKay/Salesman-Tool-Suite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.19.4",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
